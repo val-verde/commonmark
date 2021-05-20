@@ -1,4 +1,5 @@
 import cmark
+import Foundation
 
 /// A CommonMark node.
 public class Node: Codable {
