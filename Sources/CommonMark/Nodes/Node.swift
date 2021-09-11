@@ -1,6 +1,10 @@
 import cmark
 import Foundation
 
+#if canImport(WinSDK)
+import WinSDK
+#endif
+
 /// A CommonMark node.
 public class Node: Codable {
     class var cmark_node_type: cmark_node_type { return CMARK_NODE_NONE }
