@@ -210,7 +210,7 @@ public class Node: Codable {
         case .commonmark:
             cString = cmark_render_commonmark(cmark_node, options.rawValue, Int32(clamping: width))
         case .html:
-            cString = cmark_render_html(cmark_node, options.rawValue)
+            cString = cmark_render_html(cmark_node, options.rawValue, nil)
         case .xml:
             cString = cmark_render_xml(cmark_node, options.rawValue)
         case .latex:
