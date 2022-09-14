@@ -1,4 +1,4 @@
-import cmark
+import cmark_gfm
 
 /// A version number.
 public typealias Version = (major: Int, minor: Int, patch: Int)

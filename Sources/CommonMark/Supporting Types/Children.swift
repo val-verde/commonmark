@@ -1,4 +1,4 @@
-import cmark
+import cmark_gfm
 
 struct Children: Sequence {
     var cmark_node: OpaquePointer
